@@ -1,0 +1,21 @@
+:root{
+    --bg:#3f888f;
+    --card:#fff;
+    --accent:#9be670;
+    --muted:#6b6b6b;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: sans-serif;
+    margin:0;
+    background: linear-gradient(180deg, var(--bg), var(--accent));
+     background-repeat: no-repeat;
+      background-attachment: fixed;
+    color: #222;
+}
+ header{
+    padding: 28px;
+    text-align: center;
+}

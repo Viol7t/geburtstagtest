@@ -1,0 +1,79 @@
+:root{
+    --bg:#5e2028;
+    --card:#fff;
+    --accent:#ff6b8a;
+    --muted:#6b6b6b;
+}
+
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: sans-serif;
+    margin:0;
+    background: linear-gradient(180deg, var(--bg), var(--accent));
+     background-repeat: no-repeat;
+      background-attachment: fixed;
+    color: #222;
+}
+ header{
+    padding: 28px;
+    text-align: center;
+}
+h1
+{
+    font-size: 28px;
+    margin: 0;
+}
+.sub{
+    font-size: 14px;
+    color: var(--muted);
+}
+
+/* Countdown*/
+.top-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin: 18px;
+}
+.card{
+    background: var(--card);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.6);
+    min-width: 240px;
+    max-width: 360px;
+}
+.countdown{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+
+}
+.small{
+    font-size: 13px;
+    color: var(--muted);
+}
+.button-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin: 18px;
+}
+
+.button-switch{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 18px;
+    justify-content: center;
+    background: var(--card);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.6);
+    min-width: 240px;
+    max-width: 260px;
+}
